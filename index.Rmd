@@ -1,6 +1,6 @@
 ---
-title: "Nick Strayer's CV"
-author: Nick Strayer
+title: "Juqiang Chen's CV"
+author: Juqiang Chen
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -48,14 +48,14 @@ Aside
 ================================================================================
 
 
-![logo](beta_dist.png){width=100%}
+![logo](photo_JC_1c.png){width=100%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
 if(PDF_EXPORT){
   cat("View this CV online with links at _nickstrayer.me/cv_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf  https://github.com/JuqiangJ/cv)")
 }
 ```
 
@@ -63,42 +63,20 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
-
-
-
-Language Skills {#skills}
---------------------------------------------------------------------------------
-
-```{r}
-skills <- tribble(
-  ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
-)
-
-build_skill_bars(skills)
-```
-
-
-
+- <i class="fa fa-envelope"></i> J.Chen2@westernsydney.edu.au
+- <i class="fa fa-github"></i> github.com/JuqiangJ
+- <i class="fa fa-link"></i> [JuqiangChen](https://juqiangj.github.io)
+- <i class="fa fa-phone"></i> (+61) 420-286-368
+- <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-8151-3964" href="https://orcid.org/0000-0001-8151-3964" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0001-8151-3964</a></div>
+- [Research Gate](https://www.researchgate.net/profile/Juqiang_Chen?ev=hdr_xprf&_sg=PLd--S4rAxP355beD9SM1NWekpEyCSV_oWPDxaa8_5hLBOmdyQJVSwqxv12hMo2PFyb3bv46jlgHK-plv-VTZhHJ)
+- [Google Scholar](https://scholar.google.com/citations?user=YdCQAmMAAAAJ&hl=en)
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+Made with [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available at [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -108,15 +86,16 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Juqiang Chen {#title}
 --------------------------------------------------------------------------------
 
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro_text <- "I am a Doctor of Philosophy candidate with the MARCS Institute for Brain, Behaviour and Development at Western Sydney University, starting in 2017 with Prof. Catherine Best, and Dr. Mark Antoniou. My research interest and expertise are in second language speech perception/production.
 
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
-"
+In addition to my PhD project, I also do some work on some endangered aboriginal Australia Languages, Arabana and Kaytetye, with Mark Harvey, Robert Mailhammer, and Micheal Proctor.
+
+Apart from speech-related studies, I am also keen on exploring social and stylistic language variations with methods from corpus linguistics, natural language process and text mining. I have always been enthusiastic about using coprus to document and explore patterns of language use."
 
 cat(sanitize_links(intro_text))
 ```
@@ -130,6 +109,13 @@ Education {data-icon=graduation-cap data-concise=true}
 print_section(position_data, 'education')
 ```
 
+Peer Reviewed Publications{data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'academic_articles')
+```
+
 
 
 Research Experience {data-icon=laptop}
@@ -139,28 +125,28 @@ Research Experience {data-icon=laptop}
 print_section(position_data, 'research_positions')
 ```
 
-
-
-Industry Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
 ::: aside
-I have worked in a variety of roles ranging from journalist to software engineer to data scientist. I like collaborative environments where I can learn from my peers. 
+
+**Programming skills**
+
+- R
+- Praat
+- Python
+- Eprime
+
 :::
 
-```{r}
-print_section(position_data, 'industry_positions')
-```
-
-<br>
-<br>
-<br>
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
-
 ::: aside
-I am passionate about education. I believe that no topic is too complex if the teacher is empathetic and willing to think about new methods of approaching task. 
+I am passionate about teaching statistical modelling and data science.
+
+**Language skills**
+
+- Chinese (Native)
+- English (Proficient, IELTS:8, TOEFL: 112)
+- French 
 :::
 
 ```{r}
@@ -168,46 +154,31 @@ print_section(position_data, 'teaching_positions')
 ```
 
 
-Selected Data Science Writing {data-icon=chart-line}
+Honours & Awards {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
 
-::: aside
-I regularly blog about data science and visualization on my blog [LiveFreeOrDichotomize.](https://livefreeordichotomize.com/)
-:::
-
 ```{r}
-print_section(position_data, 'data_science_writings')
+print_section(position_data, 'honours')
 ```
 
 
 
-Selected Press (About)  {data-icon=newspaper}
+Professional Membership {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'about_me_press')
+print_section(position_data, 'membership')
 ```
 
 
 
-Selected Press (By)  {data-icon=newspaper}
+Service {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'by_me_press')
+print_section(position_data, 'service')
 ```
-
-
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'academic_articles')
-```
-
 
 
 ```{r}
