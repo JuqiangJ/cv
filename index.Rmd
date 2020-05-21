@@ -68,19 +68,29 @@ Contact {#contact}
 - <i class="fa fa-link"></i> [JuqiangChen](https://juqiangj.github.io)
 - <i class="fa fa-phone"></i> (+61) 420-286-368
 - <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-8151-3964" href="https://orcid.org/0000-0001-8151-3964" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0001-8151-3964</a></div>
-- [Research Gate](https://www.researchgate.net/profile/Juqiang_Chen?ev=hdr_xprf&_sg=PLd--S4rAxP355beD9SM1NWekpEyCSV_oWPDxaa8_5hLBOmdyQJVSwqxv12hMo2PFyb3bv46jlgHK-plv-VTZhHJ)
-- [Google Scholar](https://scholar.google.com/citations?user=YdCQAmMAAAAJ&hl=en)
+- <i class="fa fa-comment"></i> [Research Gate](https://www.researchgate.net/profile/Juqiang_Chen?ev=hdr_xprf&_sg=PLd--S4rAxP355beD9SM1NWekpEyCSV_oWPDxaa8_5hLBOmdyQJVSwqxv12hMo2PFyb3bv46jlgHK-plv-VTZhHJ)
+- <i class="fa fa-comment"></i> [Google Scholar](https://scholar.google.com/citations?user=YdCQAmMAAAAJ&hl=en)
 
 
-Disclaimer {#disclaimer}
+Programming Skills {#skills}
 --------------------------------------------------------------------------------
 
-Made with [**pagedown**](https://github.com/rstudio/pagedown). 
+- <i class="fa fa-check-square-o"></i> R
+- <i class="fa fa-check-square-o"></i> Praat
+- <i class="fa fa-check-square-o"></i> Python
+- <i class="fa fa-check-square-o"></i> Eprime
+
+
+
+Language skills 
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-tag"></i> Chinese (Native)
+- <i class="fa fa-tag"></i> English (IELTS:8, TOEFL: 112)
+- <i class="fa fa-tag"></i> French 
 
 
 Last updated on `r Sys.Date()`.
-
-
 
 
 Main
@@ -91,11 +101,11 @@ Juqiang Chen {#title}
 
 
 ```{r}
-intro_text <- "I am a Doctor of Philosophy candidate with the MARCS Institute for Brain, Behaviour and Development at Western Sydney University, starting in 2017 with Prof. Catherine Best, and Dr. Mark Antoniou. My research interest and expertise are in second language speech perception/production.
+intro_text <- "I am a Doctor of Philosophy candidate in psycholinguistics and phonetics at The MARCS Institute for Brain, Behaviour and Development, Western Sydney University, starting in 2017 with Prof. Catherine Best, and Dr. Mark Antoniou. My PhD topic is cognitive factors in non-native lexical tone perception and imitation by Mandarin and Vietnamese speakers.
 
-In addition to my PhD project, I also do some work on some endangered aboriginal Australia Languages, Arabana and Kaytetye, with Mark Harvey, Robert Mailhammer, and Micheal Proctor.
+Besides, I have been working with Mark Harvey, Robert Mailhammer, and Micheal Proctor to document and explore phonological and phonetic structures of some endangered aboriginal Australia Languages.
 
-Apart from speech-related studies, I am also keen on exploring social and stylistic language variations with methods from corpus linguistics, natural language process and text mining. I have always been enthusiastic about using coprus to document and explore patterns of language use."
+In addtion, I have a long-standing interest in exploring social and stylistic variations in language use with a quantitative approach (e.g., corpus, NLP, text mining). "
 
 cat(sanitize_links(intro_text))
 ```
@@ -125,28 +135,12 @@ Research Experience {data-icon=laptop}
 print_section(position_data, 'research_positions')
 ```
 
-::: aside
-
-**Programming skills**
-
-- R
-- Praat
-- Python
-- Eprime
-
-:::
-
-
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ::: aside
 I am passionate about teaching statistical modelling and data science.
 
-**Language skills**
 
-- Chinese (Native)
-- English (Proficient, IELTS:8, TOEFL: 112)
-- French 
 :::
 
 ```{r}

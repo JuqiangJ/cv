@@ -6,22 +6,23 @@ research_positions,TRUE,Research Assistant,Arabana & Kaytetye Project,University
 research_positions,TRUE,Research Assistant,Arabana Project,Western Sydney University,NA,2019,"Supervisors: Mark Harvey, Robert Mailhammer",Acoustic analysis,Data modelling
 teaching_positions,TRUE,IELTS,Nanjing Univerisity,China,2015,2016,English listening course (College level),NA,NA
 teaching_positions,TRUE,Digital Humanity Summer Institute Downunder,University of Newcastle,Australia,NA,2019,Introduction to data wrangling with R,Introduction to exploratory data analysis with R,NA
-academic_articles,TRUE,Cognitive Factors in Thai-Naive Mandarin Speakers' Imitation of Thai Lexical Tones.,"Proc. Interspeech 2019, 2653-2657.",N/A,NA,2019,"Chen, J., Best, C. T., & Antoniou, M.",NA,NA
-academic_articles,TRUE,Cognitive factors in perception of Thai tones by naive Mandarin listeners.,Proceedings of the 19th International Congress of Phonetic Sciences (pp. 1684-1688).,N/A,NA,2019,"Chen, J., Best, C. T., Antoniou, M., & Kasisopa, B.",NA,NA
-academic_articles,TRUE,Rhotic contrasts in Arabana,Proceedings of the 19th International Congress of Phonetic Sciences (pp. 1278-1282).,N/A,NA,2019,"Carne, M., Chen, J., Luk, E., Strangways, S., Stockigt, C., Maihammer, R., & Harvey, M.",NA,NA
-academic_articles,TRUE,Computational perception of information foci produced by Chinese English learners and American English speakers.,Proceedings of APSIPA Annual Summit and Conference 2019,,NA,2019,"Chen, J., & He, X.",NA,NA
-academic_articles,TRUE,Towards a Socio-Cultural Account of Literary Canon's Retranslation and Reinterpretation: The Case of The Journey to the West,Critical Arts,N/A,NA,2020,"Wang, F. (Robin)., Humble, P., & Chen, J.",NA,NA
-academic_articles,TRUE,Cross-language categorisation of monosyllabic Thai tones by Mandarin and Vietnamese speakers: L1 phonological and phonetic influences.,Proceedings of the 17th Australasian International Conference on Speech Science and Technology (pp. 168-172).,N/A,NA,2018,"Chen, J., Best, C. T., Antoniou, M., & Kasisopa, B.",NA,NA
+academic_articles,TRUE,Cognitive Factors in Thai-Naive Mandarin Speakers' Imitation of Thai Lexical Tones.,"Interspeech 2019, 2653-2657 (EI)",N/A,NA,2019,"Chen, J., Best, C. T., & Antoniou, M.",NA,NA
+academic_articles,TRUE,Cognitive factors in perception of Thai tones by naive Mandarin listeners.,Proceedings of the 19th International Congress of Phonetic Sciences (1684-1688),N/A,NA,2019,"Chen, J., Best, C. T., Antoniou, M., & Kasisopa, B.",NA,NA
+academic_articles,TRUE,Rhotic contrasts in Arabana,Proceedings of the 19th International Congress of Phonetic Sciences (1278-1282),N/A,NA,2019,"Carne, M., Chen, J., Luk, E., Strangways, S., Stockigt, C., Maihammer, R., & Harvey, M.",NA,NA
+academic_articles,TRUE,Computational perception of information foci produced by Chinese English learners and American English speakers.,Proceedings of APSIPA Annual Summit and Conference 2019 (1780-1785)(EI),,NA,2019,"Chen, J., & He, X.",NA,NA
+academic_articles,TRUE,Towards a Socio-Cultural Account of Literary Canon's Retranslation and Reinterpretation: The Case of The Journey to the West,"Critical Arts (SSCI, A&HCI)",N/A,NA,2020,"Wang, F. (Robin)., Humble, P., & Chen, J.",NA,NA
+academic_articles,TRUE,Cross-language categorisation of monosyllabic Thai tones by Mandarin and Vietnamese speakers: L1 phonological and phonetic influences.,Proceedings of the 17th Australasian International Conference on Speech Science and Technology (168-172),N/A,NA,2018,"Chen, J., Best, C. T., Antoniou, M., & Kasisopa, B.",NA,NA
 honours,TRUE,CSC-WSU Joint Scholarship,"China Scholarship Council, WSU",N/A,2017,2021,NA,NA,NA
 honours,TRUE,Academic Excellence Scholarship ,Nanjing University,N/A,NA,2016,NA,NA,NA
 honours,TRUE,National Academic Scholarship for Graduate Students,"Ministry of Education, P.R.C",N/A,2014,2017,NA,NA,NA
 honours,TRUE,First-class Student Scholarship (twice times),Nantong University,N/A,2010,2012,NA,NA,NA
 honours,TRUE,National Student Scholarship,"Ministry of Education, P.R.C",N/A,NA,2010,NA,NA,NA
 honours,TRUE,National Student Encouragement Scholarship,"Department of Education, Jiangsu",N/A,2011,2012,NA,NA,NA
+membership,TRUE,Pronounciation Teaching & Phonetic Research Committee,Committee member,China,2019,2020,NA,NA,NA
 membership,TRUE,Asia-Pacific Signal and Information Processing Association (APSIPA),Full member,N/A,2019,2020,NA,NA,NA
 membership,TRUE,International Speech Communication Association,Full member,N/A,2019,2020,NA,NA,NA
 membership,TRUE,Australasian Speech Science and Technology Association,Student member,N/A,2017,2020,NA,NA,NA
 membership,TRUE,Australian Linguistic Society,Student member,N/A,2017,2019,NA,NA,NA
 membership,TRUE,Acoustic Society of America,Student member,N/A,2018,2020,NA,NA,NA
-service,TRUE,MARCS Monday Meeting coordinator,N/A,N/A,NA,2018,NA,NA,NA
-service,TRUE,Speech and language program meeting coordinator,N/A,N/A,NA,2019,NA,NA,NA
+service,TRUE,MARCS Monday Meeting coordinator,The MARCS Institute ,Western Sydney University,NA,2018,NA,NA,NA
+service,TRUE,Speech and language program meeting coordinator,The MARCS Institute ,Western Sydney University,NA,2019,NA,NA,NA
